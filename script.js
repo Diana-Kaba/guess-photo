@@ -7,16 +7,6 @@ window.onmouseover = function () {
   let images = document.getElementsByTagName("img");
   for (let i = 0; i < images.length; i++) {
     images[i].onmouseover = showAnswer;
-  }
-};
-
-window.onmouseout = function () {
-  //   let image1 = document.getElementById("one");
-  //   image1.onclick = showImageOne;
-  //   let image2 = document.getElementById("two");
-  //   image2.onclick = showImageTwo;
-  let images = document.getElementsByTagName("img");
-  for (let i = 0; i < images.length; i++) {
     images[i].onmouseout = showBlur;
   }
 };
